@@ -53,6 +53,8 @@ GEM
     debugger-ruby_core_source (1.2.3)
     erubis (2.7.0)
     execjs (2.0.2)
+    friendly_id (5.0.0.rc2)
+      activerecord (~> 4.0.0)
     highline (1.6.19)
     hike (1.2.3)
     i18n (0.6.5)
@@ -141,6 +143,7 @@ DEPENDENCIES
   capistrano
   coffee-rails (~> 4.0.0)
   debugger
+  friendly_id (= 5.0.0.rc2)
   jbuilder (~> 1.2)
   jquery-rails
   mysql2

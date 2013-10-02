@@ -46,4 +46,5 @@ gem 'debugger', group: [:development, :test]
 
 gem 'bootstrap-sass-rails'
 
+gem 'friendly_id', '5.0.0.rc2' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
 
