@@ -1,6 +1,8 @@
 class PagesController < ApplicationController
   before_action :set_page, only: [:show, :edit, :update, :destroy]
 
+  layout 'admin'
+
   # GET /pages
   # GET /pages.json
   def index
