@@ -1,24 +1,7 @@
 
-<div class="col-md-4">
-  <table class="table table-condensed table-bordered table-hover">
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th></th>
-      </tr>
-    </thead>
 
-    <tbody>
-      <% @pages.each do |page| %>
-        <tr>
-          <td><%= page.title %></td>
-          <td><%= link_to 'Show', page %></td>
-        </tr>
-      <% end %>
-    </tbody>
-  </table>
-  <br>
+<% @pages.each do |page| %>
 
-  <%= link_to 'New Page', new_page_path %>
-</div>
+<% end %>
+
 

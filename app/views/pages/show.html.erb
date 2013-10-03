@@ -1,14 +1,8 @@
-<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
+<% content_for :title do %>
   <%= @page.title %>
-</p>
+<% end %>
 
-<p>
-  <strong>Content:</strong>
-  <%= @page.content %>
-</p>
+<%= raw RDiscount.new(@page.content).to_html %>
 
-<%= link_to 'Edit', edit_page_path(@page) %> |
-<%= link_to 'Back', pages_path %>
+
