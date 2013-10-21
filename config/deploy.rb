@@ -22,7 +22,7 @@ default_run_options[:pty] = true
 
 after "deploy:update_code", "deploy:migrate"
 
-server "204.197.210.139", :app, :web, :db, :primary => true
+server "amorales.us", :app, :web, :db, :primary => true
 
 # If you are using Passenger mod_rails uncomment this:
 namespace :deploy do
