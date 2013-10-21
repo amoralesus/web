@@ -1,8 +1,0 @@
-
-<% content_for :title do %>
-  <%= @page.title %>
-<% end %>
-
-<%= raw RDiscount.new(@page.content).to_html %>
-
-
