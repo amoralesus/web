@@ -34,3 +34,9 @@ production:
   username: root
   password:
 
+demo:
+  adapter: mysql2
+  encoding: utf8
+  database: web_production
+  username: root
+  password:
